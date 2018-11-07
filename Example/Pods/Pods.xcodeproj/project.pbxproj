@@ -11,15 +11,13 @@
 		246583A2CCF415881F00E56394D6952D /* Pods-MyLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A388FDF11BB54ECB4D3327A14A2FAC9 /* Pods-MyLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		289B3849A1F984A8B7203A043AAD8879 /* MyLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46298EDBECE087F694C65B19D39E3273 /* MyLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E8EFEF29C7F9627CE4F6487CE77B7EE /* Pods-MyLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D0B8E577D342E6F78A03E1041D9674E /* Pods-MyLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53DC50CCD09F3C3A60E1AAAE9DE44EDE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB069BCF5E4F413BA6927CA6B03AE82C /* ReplaceMe.swift */; };
 		7686F8832655B221BBFA623338A34581 /* Pods-MyLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0787508C595254CC655470E7BEE1B /* Pods-MyLib_Example-dummy.m */; };
 		936166DEE02FEECD123EDAD74DD15E02 /* MyLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB050646C6E41AD4D9466176128E1E0 /* MyLib-dummy.m */; };
 		9FAC63172C181B0A11731584C028F30F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		CD7D4687975BD4E8665C55646243AA86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		FAC32707D0386725CB1A58BDB6ABF897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		FCD7D1E321920B19005119B0 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7D1E221920B19005119B0 /* DateUtil.swift */; };
-		FCD7D1E5219219A3005119B0 /* CommunicationChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7D1E4219219A3005119B0 /* CommunicationChannel.swift */; };
-		FCD7D1E921921ADA005119B0 /* sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7D1E821921AD9005119B0 /* sender.swift */; };
+		FC43FDC421932C4400296D3E /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43FDC321932C4400296D3E /* MyUtils.swift */; };
+		FC43FDC62193373700296D3E /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43FDC52193373700296D3E /* DateUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +60,6 @@
 		8678BB26723B321AE7ACF182BFF427AF /* Pods-MyLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyLib_Example.modulemap"; sourceTree = "<group>"; };
 		90C0787508C595254CC655470E7BEE1B /* Pods-MyLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyLib_Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB069BCF5E4F413BA6927CA6B03AE82C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MyLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		ACFAD0EED4CA1AF931382405E45A91CA /* Pods-MyLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLib_Example-resources.sh"; sourceTree = "<group>"; };
 		B12D3D41F6528602038B1AE5D4F27DE3 /* Pods-MyLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B28D8C58064121C23C88B036E45A50EA /* MyLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLib-prefix.pch"; sourceTree = "<group>"; };
@@ -75,9 +72,8 @@
 		EB3C7B127F1E0111908F1C645BDBAEC5 /* MyLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MyLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ED3E661602E916F50D669CC9BCB36DA6 /* Pods-MyLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ED5CA8C58B1800C725622EC05FCB9237 /* Pods-MyLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLib_Tests-resources.sh"; sourceTree = "<group>"; };
-		FCD7D1E221920B19005119B0 /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
-		FCD7D1E4219219A3005119B0 /* CommunicationChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationChannel.swift; sourceTree = "<group>"; };
-		FCD7D1E821921AD9005119B0 /* sender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = sender.swift; path = Example/MyLib/../../sender.swift; sourceTree = "<group>"; };
+		FC43FDC321932C4400296D3E /* MyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
+		FC43FDC52193373700296D3E /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,12 +187,10 @@
 		9D8DC6B3080F1442895CB336FE8CEF1B /* MyLib */ = {
 			isa = PBXGroup;
 			children = (
-				FCD7D1E821921AD9005119B0 /* sender.swift */,
-				AB069BCF5E4F413BA6927CA6B03AE82C /* ReplaceMe.swift */,
 				4B3F74FDC23B8D9FF647F7EA9DBD4BCE /* Pod */,
 				4505A00A58EC7FBA44E6AAEEAEB63D6E /* Support Files */,
-				FCD7D1E221920B19005119B0 /* DateUtil.swift */,
-				FCD7D1E4219219A3005119B0 /* CommunicationChannel.swift */,
+				FC43FDC321932C4400296D3E /* MyUtils.swift */,
+				FC43FDC52193373700296D3E /* DateUtil.swift */,
 			);
 			name = MyLib;
 			path = ../..;
@@ -330,6 +324,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					0CEBE4DB121F178D5E72580E460E33A8 = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -387,11 +386,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD7D1E921921ADA005119B0 /* sender.swift in Sources */,
-				FCD7D1E5219219A3005119B0 /* CommunicationChannel.swift in Sources */,
-				FCD7D1E321920B19005119B0 /* DateUtil.swift in Sources */,
+				FC43FDC62193373700296D3E /* DateUtil.swift in Sources */,
 				936166DEE02FEECD123EDAD74DD15E02 /* MyLib-dummy.m in Sources */,
-				53DC50CCD09F3C3A60E1AAAE9DE44EDE /* ReplaceMe.swift in Sources */,
+				FC43FDC421932C4400296D3E /* MyUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 13BD6A36CDC868443C53FD2FFE308BD2 /* MyLib.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -561,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 13BD6A36CDC868443C53FD2FFE308BD2 /* MyLib.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

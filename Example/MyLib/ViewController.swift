@@ -14,9 +14,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print(Date.today())
+        //print(Date.today())
         
-        print(Sender.self)
+        //let math = mlib     // Your class
+        print(Date.today())
+        print("suma -> \(MyMath().sum(a: 1, b: 2))")
     }
 
     override func didReceiveMemoryWarning() {
