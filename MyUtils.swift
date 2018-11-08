@@ -11,6 +11,6 @@ import UIKit
 public class MyMath {
     public init() {}
     public func sum(a: Int,b: Int) -> Int {
-        return 1 + 1
+        return a + b
     }
 }
